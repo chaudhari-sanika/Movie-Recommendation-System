@@ -40,5 +40,5 @@ def get_recommendations(movie_name, cosine_sim=cosine_sim):
     return df[['movie_name']].iloc[movie_indices]  # Show more info for context
 
 # Test it
-recommended = get_recommendations('Kabir Singh')
+recommended = get_recommendations('Add Movie')
 print("Top Recommendations:\n", recommended)
